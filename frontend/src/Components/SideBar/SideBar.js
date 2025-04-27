@@ -22,7 +22,7 @@ function SideBar() {
                         className={`side_bar_nav_item ${currentPath === '/allPost' ? 'side_bar_nav_item--active' : ''}`}
                         onClick={() => (window.location.href = '/allPost')}
                     >
-                        BoostPost
+                        CreatePost
                     </p>
                     <p
                         className={`side_bar_nav_item ${currentPath === '/allLearningProgress' ? 'side_bar_nav_item--active' : ''}`}
