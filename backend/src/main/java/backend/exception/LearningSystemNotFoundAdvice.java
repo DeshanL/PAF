@@ -1,3 +1,5 @@
+//learning progress exceptions
+
 package backend.exception;
 
 import org.springframework.http.HttpStatus;
