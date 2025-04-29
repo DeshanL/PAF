@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar';
 
 function SideBar() {
     const currentPath = window.location.pathname; // Get the current path
-
+    //slidebar component
     return (
         <div>
             <div className='nav_con'>
@@ -16,7 +16,7 @@ function SideBar() {
                         className={`side_bar_nav_item ${currentPath === '/learningSystem/allLearningPost' ? 'side_bar_nav_item--active' : ''}`}
                         onClick={() => (window.location.href = '/learningSystem/allLearningPost')}
                     >
-                        EduStream
+                        EduStream 
                     </p>
                     <p
                         className={`side_bar_nav_item ${currentPath === '/allPost' ? 'side_bar_nav_item--active' : ''}`}
