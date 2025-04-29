@@ -1,3 +1,5 @@
+//learning progress exceptions
+
 package backend.exception;
 
 public class LearningProgressNotFoundException extends RuntimeException{

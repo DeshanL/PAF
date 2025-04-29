@@ -1,3 +1,5 @@
+//user model part
+
 package backend.model;
 
 import jakarta.persistence.GeneratedValue;
